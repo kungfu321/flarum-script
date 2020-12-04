@@ -36,7 +36,7 @@ then
     sudo add-apt-repository --yes ppa:ondrej/php
     sudo apt-get update
     sudo apt-get -y install apache2 mariadb-server mariadb-client
-    sudo apt install -y php7.2 libapache2-mod-php7.2 php7.2-common php7.2-mbstring php7.2-xmlrpc php7.2-soap php7.2-gd php7.2-xml php7.2-intl php7.2-mysql php7.2-cli php7.2-mcrypt php7.2-zip php7.2-curl php7.2-dom openssl
+    sudo apt install -y php7.2 libapache2-mod-php7.2 php7.2-common php7.2-mbstring php7.2-xmlrpc php7.2-soap php7.2-gd php7.2-xml php7.2-intl php7.2-mysql php7.2-cli php7.2-mcrypt php7.2-zip php7.2-curl php7.2-dom zip unzip openssl
 
     sudo mkdir -p /var/www/$MY_DOMAIN_NAME
     cd /var/www/$MY_DOMAIN_NAME
