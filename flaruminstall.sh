@@ -36,7 +36,9 @@ then
     sudo add-apt-repository --yes ppa:ondrej/php
     sudo apt-get update
     sudo apt-get -y install apache2 mariadb-server mariadb-client
-    sudo apt install -y php7.1 libapache2-mod-php7.1 php7.1-common php7.1-mbstring php7.1-xmlrpc php7.1-soap php7.1-gd php7.1-xml php7.1-intl php7.1-mysql php7.1-cli php7.1-mcrypt php7.1-zip php7.1-curl php7.1-dom zip unzip openssl
+    sudo curl -s https://getcomposer.org/installer | php
+    sudo mv composer.phar /usr/bin/composer
+    sudo apt install -y php7.1 libapache2-mod-php7.1 php7.1-common php7.1-mbstring php7.1-xmlrpc php7.1-soap php7.1-gd php7.1-xml php7.1-intl php7.1-mysql php7.1-cli php7.1-mcrypt php7.1-zip php7.1-curl php7.1-dom openssl
 
     sudo mkdir -p /var/www/$MY_DOMAIN_NAME
     cd /var/www/$MY_DOMAIN_NAME
