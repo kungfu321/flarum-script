@@ -6,6 +6,9 @@
 #version       :1.0
 #usage		     :sudo bash flaruminstall.sh
 #notes         :Tested with Ubuntu 18
+# install composer before run this script
+# sudo curl -s https://getcomposer.org/installer | php
+# sudo mv composer.phar /usr/bin/composer
 #==============================================================================
 
 #Change below to what you'd like
